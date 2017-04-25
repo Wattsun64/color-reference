@@ -1,0 +1,8 @@
+@keyframes moveIn {
+    from {
+        transform: translateY(-1000px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}

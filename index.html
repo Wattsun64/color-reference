@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Color Reference</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <img id="wheel" src="./img/palette-42290_640.png" width="40%" height="80%" alt="Color Wheel">
+    <div id="container">
+        <div id="select-menu">
+            <h2>Select Color to View</h2>
+            <hr>
+            <select id="colors">
+                <option value="white">White</option>
+                <optgroup label="Primary">
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="indigo">Indigo</option>
+                    <option value="violet">Violet</option>
+                </optgroup>
+                <optgroup label="Other">
+                    <option value="cadetblue">CadetBlue</option>
+                    <option value="aquamarine">Aquamarine</option>
+                    <option value="beige">Beige</option>
+                    <option value="bisque">Bisque</option>
+                    <option value="blanchedalmond">BlanchedAlmond</option>
+                    <option value="blueviolet">BlueViolet</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="coral">Coral</option>
+                </optgroup>
+            </select>
+            <button id="btn" type="button">Reset</button>
+        </div>
+        <div id="swatch"></div>
+    </div>
+    <script src="./src/index.js"></script>
+    <script src="./src/reset.js"></script>
+</body>
+
+</html>

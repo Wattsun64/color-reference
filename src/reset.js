@@ -1,6 +1,7 @@
 (function() {
     var btn = document.getElementById('btn'),
-        body = document.body.style;
+        body = document.body.style,
+        img = document.getElementById('wheel');
 
     btn.addEventListener('click', clearBack);
 
@@ -11,7 +12,8 @@
 
         body.backgroundColor = '';
         sel.value = 'white';
-
+        img.classList.toggle('active');
+        
     }
 
 }())

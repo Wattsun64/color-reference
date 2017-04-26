@@ -1,6 +1,7 @@
 (function() {
     var color = document.getElementById('colors'),
-        body = document.body.style;
+        body = document.body.style,
+        img = document.getElementById('wheel');
 
     color.addEventListener('change', colorChange);
 
@@ -10,6 +11,7 @@
             h = document.querySelector('h2');
 
         body.backgroundColor = this.value;
+        img.classList.toggle('active');
 
 
     }

@@ -9,14 +9,19 @@ body {
 #wheel {
   position: absolute;
   top: 2em;
-  left: 30%;
+  left: 26%;
+  transition: all 0.5s ease-in-out;
+}
+
+#wheel:hover {
+  transform: rotateZ(360deg);
 }
 
 #container {
   position: relative;
   width: 40%;
   left: 30%;
-  top: 13em;
+  top: 15.5em;
   border-radius: 0.5em;
 }
 
@@ -37,9 +42,10 @@ body {
 
 #container #select-menu button {
   position: relative;
-  left: 28%;
+  left: 26%;
   border: none;
   font-family: "Gloria Hallelujah";
+  font-size: 1em;
   border: 1px solid #000;
   background-color: #fff;
   border-radius: 0.5em;
@@ -50,10 +56,11 @@ body {
 
 #container #select-menu select {
   position: relative;
-  left: 28%;
+  left: 26%;
   width: 30%;
   height: 4em;
   font-family: "Gloria Hallelujah";
+  font-size: 1em;
   border: 1px solid #000;
   background-color: #fff;
   outline: none;

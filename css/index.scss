@@ -1,5 +1,4 @@
 @import './_variables';
-
 body {
     background-color: $main-color;
     padding: 1.5em;
@@ -25,6 +24,9 @@ body {
     @media screen and (max-width: 1919px) {
         top: 21.5em;
         left: 31%;
+    }
+    @media screen and (max-width: 1435px) {
+        top: 15em;
     }
     #select-menu {
         padding: 1em;
@@ -64,4 +66,3 @@ body {
         }
     }
 }
-
